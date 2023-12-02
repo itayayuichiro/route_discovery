@@ -1,67 +1,191 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/hokkaido/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/okinawa/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/aomori/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/kagoshima/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/iwate/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/miyazaki/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/yamagata/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/oita/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/akita/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/kumamoto/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/chiba/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/nagasaki/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/fukushima/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/saga/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/gunma/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/fukuoka/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/ibaraki/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/kochi/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/iwate/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <loc>https://itayayuichiro.github.io/route_discovery/ehime/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/kagawa/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/tokushima/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/yamaguchi/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/hiroshima/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/okayama/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/shimane/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/tottori/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/wakayama/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/nara/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/hyogo/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/osaka/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/kyoto/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/shiga/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/mie/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/aichi/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/shizuoka/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/gifu/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/fukui/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/ishikawa/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/toyama/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/yamanashi/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/nagano/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/nigata/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
     <loc>https://itayayuichiro.github.io/route_discovery/kanagawa/</loc>
-    <lastmod>2023-12-02</lastmod>
-  </url>
-  <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/miyagi/</loc>
-    <lastmod>2023-12-02</lastmod>
-  </url>
-  <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/saitama/</loc>
-    <lastmod>2023-12-02</lastmod>
-  </url>
-  <url>
-    <loc>https://itayayuichiro.github.io/route_discovery/tochigi/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
     <loc>https://itayayuichiro.github.io/route_discovery/tokyo/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/chiba/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/saitama/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/gunma/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/tochigi/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/ibaraki/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/fukushima/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
   <url>
     <loc>https://itayayuichiro.github.io/route_discovery/yamagata/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/miyagi/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/akita/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/iwate/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/aomori/</loc>
+    <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://itayayuichiro.github.io/route_discovery/hokkaido/</loc>
+    <lastmod>2023-12-03</lastmod>
   </url>
 </urlset>
