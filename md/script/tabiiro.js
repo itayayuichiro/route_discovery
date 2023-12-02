@@ -17,3 +17,4 @@ var result = [...document.getElementsByClassName('ren-article-card')].map(a => {
 }).join("\n")
 
 console.log(result)
+copy(result);
