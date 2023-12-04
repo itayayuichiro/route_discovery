@@ -9,7 +9,7 @@ var result = [...document.getElementsByClassName('ren-article-card')].map(a => {
         `</div>` + "\n" +
         `<div class="list_text">` + "\n" +
             `${title}` + "\n" +
-            `<div class="from">from HOKKAIDO LOVE!</div>` + "\n" +
+            `<div class="from">from 旅色</div>` + "\n" +
         `</div>` + "\n" +
     `</a>` + "\n"
 
