@@ -14,7 +14,7 @@ class Crawler
     doc.title = "#{title_text} | モデルルート特化サイト"
     doc.at_css('h1').content = title_text
     doc.at_css('#favicon')['href'] = '../../favicon.ico'
-    doc.at_css('#canonical')['href'] = 'https://trip.masyumaroking.com'+path.gsub('./','/')
+    doc.at_css('#canonical')['href'] = 'https://trip.masyumaroking.com'+path.gsub('./','/')+'/'
     doc.at_css('#style')['href'] = '../../css/style.css'
     doc.at_css('#icon')['src'] = '../../icon.png'
     doc.at_css('.nav_text') << (condition == nil ? prefecture : "<a href='../'>#{prefecture}</a> > #{condition}")
