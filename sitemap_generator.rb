@@ -71,12 +71,10 @@ SitemapGenerator::Sitemap.public_path = "docs"
 SitemapGenerator::Sitemap.compress = false
 
 SitemapGenerator::Sitemap.create do
-
   prefectures.each do |key, value|
     prefecture = value
     add '/' + key.to_s + '/'
     conditions.each do |k, v|
-      path = './docs/' + key.to_s + '/' + k.to_s
       courses = Courses.where(prefecture: prefecture).where('title like ?', "%#{v}%")
       p "#{key}:#{value}:#{v}"
       if courses.size > 0

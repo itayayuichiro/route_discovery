@@ -14,6 +14,7 @@ class Crawler
     doc.title = "#{title_text} | モデルルート特化サイト"
     doc.at_css('h1').content = title_text
     doc.at_css('#favicon')['href'] = '../../favicon.ico'
+    doc.at_css('#canonical')['href'] = 'https://trip.masyumaroking.com'+path.gsub('./','/')
     doc.at_css('#style')['href'] = '../../css/style.css'
     doc.at_css('#icon')['src'] = '../../icon.png'
     doc.at_css('.nav_text') << (condition == nil ? prefecture : "<a href='../'>#{prefecture}</a> > #{condition}")
@@ -98,27 +99,42 @@ conditions = {
   gourmet: 'グルメ'
 }
 
+prefectures.each do |key, value|
+  prefecture = value
+  conditions.each do |k, v|
+    path = './docs/' + key.to_s + '/' + k.to_s
+    crawler = Crawler.new
+    FileUtils.mkdir_p(path)
+    courses = Courses.where(prefecture: prefecture).where('title like ?', "%#{v}%")
+    p "#{key}:#{value}:#{v}"
+    if courses.size > 0
+      p '該当あり'
+      crawler.main(courses, path, prefecture, v)
+    end
+  end
+end
+
+
+# index.html
 # prefectures.each do |key, value|
 #   prefecture = value
+#   # add '/' + key.to_s + '/'
+#   title_text = "#{prefecture}おすすめモデルコース一覧"
+#   content = "<a href='#{'/' + key.to_s + '/'}' class='list_content'>" + 
+#   "<div class='list_text'>#{title_text}</div>" + 
+#   "</a>"
+
 #   conditions.each do |k, v|
-#     path = './docs/' + key.to_s + '/' + k.to_s
-#     crawler = Crawler.new
-#     FileUtils.mkdir_p(path)
 #     courses = Courses.where(prefecture: prefecture).where('title like ?', "%#{v}%")
-#     p "#{key}:#{value}:#{v}"
+#     # p "#{key}:#{value}:#{v}"
 #     if courses.size > 0
-#       p '該当あり'
-#       crawler.main(courses, path, prefecture, v)
+#       title_text = "#{prefecture}の#{v}モデルコース一覧"
+#       content = "<a href='#{'/' + key.to_s + '/' + k.to_s + '/'}' class='list_content'>" + 
+#       "<div class='list_text'>#{title_text}</div>" + 
+#       "</a>"
+#       puts content
+#       # add 
 #     end
 #   end
 # end
 
-Courses.all.each do |course|
-  content = "<a href='#{course.url}' class='list_content'>" + 
-  "<div class='list_img'><img src='#{course.image_url}'/></div>" + 
-  "<div class='list_text'>#{course.title}<div class='from'>from 旅色</div></div>" + 
-  "</a>"
-
-
-  puts content
-end
