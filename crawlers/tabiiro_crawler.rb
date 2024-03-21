@@ -4,7 +4,7 @@ require 'kconv'
 require 'mechanize'
 require "csv"
 require "pp"
-require_relative './db_client'
+require_relative '../lib/db_client'
 
 class Crawler
   def main
@@ -18,7 +18,8 @@ class Crawler
             title = a.css('.ren-article-card__ttl')[0].text.gsub("\"", "'")
             img = a.css('.ren-article-card__img img')[0][:src]
             hash = {url: href, title: title, image_url: img, site_name: '旅色'}
-            Courses.create!(hash)
+            p hash
+            # Courses.create!(hash)
         end
         sleep 0.5
     end
