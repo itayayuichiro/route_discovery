@@ -4,8 +4,6 @@ require 'kconv'
 require 'mechanize'
 require "csv"
 require "pp"
-
-
 require 'active_record' 
 
 #DB接続設定
