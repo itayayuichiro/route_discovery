@@ -412,12 +412,13 @@ pre tt {
 }
 
 .list_content {
+  margin: 10px;
+  padding: 10px;
   position: relative;
   display: table;
   box-sizing: inherit;
   word-wrap: break-word;
-  border-bottom: 1px solid #e6e6e6;
-  width: 100%;
+  border: 1px solid #333;
   height: 85px;
   overflow: hidden;
   background: #fff;
