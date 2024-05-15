@@ -49,6 +49,69 @@ module Const
     aomori: "青森県"
   }
 
+  RAKUTEN_MAPPER = {
+    ibaraki: 'ibaragi',
+    yamanashi: 'yamanasi',
+    chiba: 'tiba',
+    shimane: 'simane',
+    oita: 'ooita',
+    nigata: 'niigata',
+    kochi: 'kouchi',
+    gifu: 'gihu',
+    fukushima: 'hukushima',
+    fukuoka: 'hukuoka',
+    fukui: 'hukui'
+  }
+  # select area,count(*) from `courses` group by area;
+  # これで抽出して、５件以上あるものを
+  # https://hogehoge.tk/nihongo/
+  # これでローマ字にする
+  POPULAR_CITIES = {
+    oosaka: "大阪",
+    nagoya: "名古屋",
+    kanazawa: "金沢",
+    kyouto: "京都",
+    hakone: "箱根",
+    kamakura: "鎌倉",
+    kawagutiko: "河口湖",
+    hakodate: "函館",
+    naha: "那覇",
+    koube: "神戸",
+    iwaki: "いわき",
+    yokohama: "横浜",
+    atami: "熱海",
+    nasu: "那須",
+    hida: "飛騨",
+    karuizawa: "軽井沢",
+    nikkou: "日光",
+    hamamatu: "浜松",
+    awazisima: "淡路島",
+    nagasaki: "長崎",
+    aso: "阿蘇",
+    seinou: "西濃",
+    kouhu: "甲府",
+    isigakizima: "石垣島",
+    asakusa: "浅草",
+    kawagoe: "川越",
+    sendai: "仙台",
+    onomiti: "尾道",
+    tottori: "鳥取",
+    suwa: "諏訪",
+    miyakozima: "宮古島",
+    syoudosima: "小豆島",
+    niigata: "新潟",
+    yosino: "吉野",
+    utunomiya: "宇都宮",
+    aiz_wakamatu: "会津若松",
+    tokorozawa: "所沢",
+    minakami: "みなかみ",
+    matue: "松江",
+    hukuoka: "福岡",
+    gihu: "岐阜",
+    tyuunou: "中濃",
+    tounou: "東濃",
+  }
+
   CONDITIONS = {
     'day': '日帰り',
     '1day2': '1泊2日',
