@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[prefecture]","\u002F[prefecture]\u002F[area_or_condition]","\u002F[prefecture]\u002F[area_or_condition]\u002F[condition]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
