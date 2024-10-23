@@ -47,7 +47,7 @@
 	display: flex;
 	align-items: center;
 	padding: 0 5vw;
-	opacity: 0;
+	/* opacity: 0; */
 	transition: opacity 1s;	/*ここの1s（＝1秒）を変更すると、フェードのスピードを変更できます。*/
 }
 
